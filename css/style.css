@@ -147,6 +147,10 @@
     margin: 30px auto;
 }
 
+.orizzontal-margin-50{
+    margin: 0px 50px;
+}
+
 .dotted{
     border: 1px dotted black;
 }
@@ -205,6 +209,10 @@ button.white{
     background-color: white;
     color: black;
 }
+button.blue{
+    background-color: #7595e4;
+    color: white;
+}
 /* JUMBO SECTION */
 .img-jumbo{
     background-image: url(../img/jumbo.png);
@@ -231,4 +239,18 @@ h2{
     padding-top: 30px;
     font-size: 35px;
     margin-bottom: 20px;
+}
+
+h3{
+    font-size: 20px;
+    padding-top: 40px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 30px;
+}
+
+img[alt='item4-big']{
+    width: 100%;
+    padding-bottom: 20px;
 }
