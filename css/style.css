@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
@@ -20,7 +21,6 @@
 .row{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .column-15{
@@ -48,12 +48,20 @@
     justify-content: space-between;
 }
 
+.justify-end{
+    justify-content: end;
+}
+
 .align-center{
     align-items: center;
 }
 
 .d-flex{
     display: flex;
+}
+
+.d-block{
+    display: block;
 }
 /* FINE CLASSI DI LAYOUT */
 
@@ -147,7 +155,34 @@
 
 
 header{
-    background-color: lightcyan;
-    padding: 10px 0px;
+    background-color: rgb(102, 102, 249);
+    padding: 15px 0px;
 }
 
+img{
+    display: block;
+}
+
+header .links{
+    height: 100%;
+    padding: 0 100px;
+    gap: 40px;
+}
+header .login{
+    height: 100%;
+}
+
+header .links > a{
+    color: white;
+    font-size: 15px;
+}
+header .links > a:hover{
+    cursor: pointer;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+}
