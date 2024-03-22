@@ -15,7 +15,7 @@
 
 .container-sm{
     margin: 0px auto;
-    max-width: 921px;
+    max-width: 920px;
 }
 
 .row{
@@ -151,11 +151,15 @@
 .text-right{
     text-align: right;
 }
+
+.text-white{
+    color: white;
+}
 /* FINE CLASSI DI UTILITY */
 
 
 header{
-    background-color: rgb(102, 102, 249);
+    background-color: #255DE9;
     padding: 15px 0px;
 }
 
@@ -181,8 +185,36 @@ header .links > a:hover{
 }
 
 button{
-    padding: 5px 10px;
-    background-color: white;
+    padding: 8px 13px;
     border: 0;
     border-radius: 20px;
+}
+
+button.black{
+    background-color: black;
+    color: white;
+}
+button.white{
+    background-color: white;
+    color: black;
+}
+/* JUMBO SECTION */
+.img-jumbo{
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.img-jumbo h1{
+    padding-top: 50px;
+    padding-bottom: 35px;
+    font-size: 55px;
+}
+
+.img-jumbo p{
+    line-height: 2em;
+    padding-bottom: 10px;
+    max-width: 80%;
+    margin: 0 auto;
 }
