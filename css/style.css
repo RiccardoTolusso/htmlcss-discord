@@ -27,12 +27,20 @@
     flex-basis: 15%;
 }
 
+.column-17{
+    flex-basis: calc(100% / 6);
+}
+
 .column-20{
     flex-basis: 20%;
 }
 
 .column-30{
     flex-basis: 20%;
+}
+
+.column-34{
+    flex-basis: calc(100% / 6 * 2 );
 }
 
 .column-40{
@@ -75,6 +83,8 @@
 
 /* CLASSI DI UTILITY */
 
+
+
 .line-height-3{
     line-height: 3;
 }
@@ -85,6 +95,10 @@
 
 .height-40{
     height: 20px;
+}
+
+.gap-50{
+    gap: 50px;
 }
 
 .height-60{
@@ -132,7 +146,7 @@
 }
 
 .bg-black{
-    background-color: black;
+    background-color: #23272A;
 }
 
 .vpadding-2{
@@ -237,11 +251,12 @@ button.blue{
 
 h2{
     padding-top: 30px;
-    font-size: 35px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 
-h3{
+.stars-text{
+    font-weight: bold;
     font-size: 20px;
     padding-top: 40px;
     background-image: url(../img/stars.svg);
@@ -253,4 +268,60 @@ h3{
 img[alt='item4-big']{
     width: 100%;
     padding-bottom: 20px;
+}
+
+.footer-top{
+    background-color: #23272A;
+    color: white;
+}
+
+.footer-top h3,
+.footer-top h4{
+    padding-top: 60px;
+    color: #7595e4;
+    margin-bottom: 10px;
+}
+
+.footer-top h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.footer-top h4{
+    font-size: 25px;
+
+}
+
+.footer-top a{
+    text-decoration: none;
+}
+
+.italiano > img{
+    display: inline-block;
+    height: 1.5em;
+    margin-right: 4px;
+}
+
+.italiano > *{
+    vertical-align: middle;
+}
+
+.social-links{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.social-links > a{
+    margin-left: 10px;
+}
+
+
+.footer-top .column-17 > a{
+    display: block;
+    margin-top: 10px;
+}
+
+hr{
+    margin: 30px 0px;
+    border-color: #7595e4;
 }
