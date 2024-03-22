@@ -31,6 +31,9 @@
     flex-basis: 20%;
 }
 
+.column-30{
+    flex-basis: 20%;
+}
 
 .column-40{
     flex-basis: 40%;
@@ -38,6 +41,10 @@
 
 .column-60{
     flex-basis: 60%;
+}
+
+.column-70{
+    flex-basis: 70%;
 }
 
 .column-100{
@@ -217,4 +224,19 @@ button.white{
     padding-bottom: 10px;
     max-width: 80%;
     margin: 0 auto;
+}
+
+.side-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.side-image.item1{
+    background-image: url(../img/item1.svg);
+    height: 90%;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 20px;
 }
