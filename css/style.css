@@ -134,7 +134,7 @@
 }
 
 .bg-silver{
-    background-color: silver;
+    background-color: #dddcdc;
 }
 
 .bg-gold{
@@ -163,10 +163,6 @@
 
 .orizzontal-margin-50{
     margin: 0px 50px;
-}
-
-.dotted{
-    border: 1px dotted black;
 }
 
 .text-center{
@@ -324,4 +320,26 @@ img[alt='item4-big']{
 hr{
     margin: 30px 0px;
     border-color: #7595e4;
+}
+
+/* CREAZIONE DELLE ONDE */
+.onde-container.white{
+    width: 100%;
+    background-color: white;
+}
+.onde-container.gray{
+    width: 100%;
+    background-color: #dddcdc;
+}
+
+.onda{
+    height: 150px;
+    -webkit-mask: url(../img/wave.svg) no-repeat center;
+    mask: url(../img/wave.svg) no-repeat center;
+}
+.onda.gray{
+    background-color: #dddcdc;
+}
+.onda.white{
+    background-color: white;
 }
