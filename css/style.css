@@ -127,8 +127,13 @@ header .links > a{
     color: white;
     font-size: 15px;
 }
-header .links > a:hover{
+header .links > a:hover,
+.footer-top a:hover{
     cursor: pointer;
+    text-decoration: underline;
+}
+.social-links > a:hover{
+    text-decoration: none;
 }
 
 button{
@@ -136,18 +141,30 @@ button{
     border: 0;
     border-radius: 20px;
 }
+button:hover{
+    box-shadow: 0 8px 5px rgba(0,0,0,.2);
+}
 
 button.black{
     background-color: black;
     color: white;
 }
+button.black:hover{
+    background-color: rgb(55, 55, 55);
+}
 button.white{
     background-color: white;
     color: black;
 }
+button.white:hover{
+    background-color: rgb(241, 240, 240);
+}
 button.blue{
     background-color: #7595e4;
     color: white;
+}
+button.blue:hover{
+    background-color: #88a1df;
 }
 /* JUMBO SECTION */
 .img-jumbo{
